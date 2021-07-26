@@ -32,10 +32,11 @@ let userInformation = ['Raneem', 24, '201d34', true];
 let favFood = prompt('Do like mansaf').toLowerCase();
 switch(favFood) {
 case 'yes':
-  console.log('yes');
+  // console.log('yes');
+  alert();
   break;
 case 'no':
-  console.log('no');
+  // console.log('no');
 
   break;
 default:
